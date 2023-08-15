@@ -16,11 +16,39 @@ body{
     object-fit: cover;
 }
 .carrossel h2{
-    position: absolute; /* Define a posição absoluta para o <h2> */
+    position: absolute;
     bottom: -0.5rem;
     padding: 0.5rem;
     background-color: rgba(0, 0, 0, 0.5);
     color:#fff;
     text-align: center;
+    width: 100%;
+}
+
+.noticiaPequena{
+    height: 32vh;
+}
+
+.noticiaPequena img{
+    height: 100%;
+    object-fit: cover;
+}
+
+.noticiaPequena h5{
+    position: absolute;
+    bottom: -0.5rem;
+    padding: 0.5rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    color:#fff;
+    text-align: center;
+    width: 100%;
+}
+
+.noticiaGrande{
+    height: 32vh;
+}
+
+.noticiaGrande img{
+    object-fit: cover;
     width: 100%;
 }
